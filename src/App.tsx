@@ -4,7 +4,7 @@ import { observer, inject } from 'mobx-react';
 import { IMobxStore } from './stores/mobxStore';
 
 interface AppProps {
-  mobxStore?: IMobxStore
+  mobxStore: IMobxStore
 }
 
 @inject('mobxStore')
