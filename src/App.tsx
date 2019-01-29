@@ -25,7 +25,7 @@ class App extends Component<AppProps> {
   }
 
   private clickHandler = () =>{
-    const {setName} = this.props.mobxStore!;
+    const {setName} = this.props.mobxStore;
     setName("Bob");
   }
 }
